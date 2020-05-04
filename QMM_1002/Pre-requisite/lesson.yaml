@@ -1,0 +1,14 @@
+- Class: meta
+  Course: QMM_1002
+  Lesson: Pre-requisite
+  Author: Colleen Bobbie
+  Type: Standard
+  Organization: Cambrian College
+  Version: 1.0.0
+- Class: text
+  Output: Welcome to your first swirl course! Here we'll guide you through some concepts you should be familiar with from last semester. Press Enter to continue...
+- Class: cmd_question
+  Output: Add 2 and 2 together using the addition operator.
+  CorrectAnswer: 2 + 2
+  AnswerTests: omnitest(correctExpr='2 + 2')
+  Hint: Just type 2 + 2.
